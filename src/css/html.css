@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    /*o que fica abaixo da barra*/
+    background: #000;
+} 
+
+html::-webkit-scrollbar-thumb {
+    /*cor da barra*/
+    background: rgb(129, 131, 141);
+}
+
+
+.ptext {
+    position:   absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 29px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+.border .border.trans {
+    visibility: hidden;
+}
