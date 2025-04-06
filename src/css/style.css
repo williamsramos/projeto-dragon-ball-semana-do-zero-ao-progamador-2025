@@ -123,12 +123,12 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 40px;
+    height: 35px;
     position: fixed;
     width: 100%;
     color: #ffffff;
     font-family: "Secular one";
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .rodape-dragonball img {
