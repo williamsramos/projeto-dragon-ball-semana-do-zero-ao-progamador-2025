@@ -46,7 +46,7 @@
         text-align: center;
         left: 0;
         color: #ffffff;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .rodape-dragonball img {
@@ -77,4 +77,16 @@
     .botoes .botao img{
         max-width: 50px;
     }
+
+    .rodape-dragonball {
+        text-align: center;
+        left: 0;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .rodape-dragonball img {
+        width: 20px;
+    }
+
 }
