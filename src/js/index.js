@@ -1,3 +1,14 @@
+const botaoTema = document.getElementById('toggle-tema');
+const iconeTema = document.getElementById('icone-tema');
+
+botaoTema.addEventListener('click', () => {
+    document.body.classList.toggle('tema-escuro');
+
+    const temaEscuroAtivo = document.body.classList.contains('tema-escuro');
+    iconeTema.src = temaEscuroAtivo ? './src/img/sol.png' : './src/img/lua.png';
+    iconeTema.alt = temaEscuroAtivo ? 'Tema claro' : 'Tema escuro';
+});
+
 // Seleciona todos os botões de personagem
 const botoes = document.querySelectorAll(".botao");
 // Seleciona todos os personagens

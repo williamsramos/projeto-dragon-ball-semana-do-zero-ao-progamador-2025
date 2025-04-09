@@ -1,4 +1,14 @@
 @media (max-width: 768px){
+    .botao-tema {
+        top: 10px;
+        right: 10px;
+      }
+    
+      .botao-tema img {
+        width: 28px;
+        height: 28px;
+      }
+
     main::after{
         background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
         width: 100vw;
@@ -56,6 +66,16 @@
 }
 
 @media (max-width: 425px){
+    .botao-tema {
+        top: 8px;
+        right: 8px;
+      }
+    
+      .botao-tema img {
+        width: 24px;
+        height: 24px;
+      }
+
     main .personagem .imagem{
         height: auto;
     }

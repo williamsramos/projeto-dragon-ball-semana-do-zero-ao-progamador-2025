@@ -1,3 +1,33 @@
+.botao-tema {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.botao-tema img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Tema escuro */
+body.tema-escuro {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.tema-escuro .personagem .conteudo {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.tema-escuro .rodape-dragonball {
+  background-color: #1e1e1e;
+  color: #bbb;
+}
+
 body {
     background-color: #000000;
     overflow: hidden;
